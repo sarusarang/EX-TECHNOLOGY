@@ -1,0 +1,89 @@
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+
+  scroll-behavior: smooth;
+}
+
+.Headline {
+
+  background: -webkit-linear-gradient(#212529, #0d6efd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 1.5rem !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.btn-contact {
+
+  background-color: #ff8a1d !important;
+  border: 1px solid #ff8a1d !important;
+  color: #fff !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  transition: all ease-in-out 0.3s !important;
+  font-weight: 500 !important;
+
+}
+
+.btn-contact:hover {
+
+  background-color: transparent !important;
+  color: #ff8a1d !important;
+  border: 1px solid #ff8a1d !important;
+
+
+}
+
+header {
+
+  background-color: #fff !important;
+  z-index: 1000;
+}
+
+.inner-box {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 3rem;
+  padding: 4rem 2rem 4rem 2rem;
+  color: #343a40;
+  transition: all ease-in-out 0.3s !important;
+
+}
+
+.inner-box:hover {
+
+  background-color: #ff8a1d;
+  color: #fff;
+
+}
+
+.inner-box i {
+
+  font-size: 4rem;
+
+}
+
+.about-head h3{
+
+  font-weight: 700;
+
+}
+
+.about-head p{
+
+  text-align: justify;
+  font-weight: 400;
+  font-family: cursive;
+
+}
