@@ -32,7 +32,8 @@ html {
 
 .btn-contact {
 
-  background: linear-gradient(to bottom, #CC01FF , #00FFDD) !important;
+  background: linear-gradient(to right, #CC01FF , #00ffdd) !important;
+  border: 1px solid #000 !important;
   outline: none !important;
   color: #fff !important;
   padding: 0.5rem 1rem 0.5rem 1rem !important;
@@ -43,13 +44,27 @@ html {
 
 .btn-contact:hover {
 
-  background: linear-gradient(to bottom, #ffffff, #ffffff) !important;
+  
   color: #000 !important;
   border: 1px solid #000 !important;
   
 
 
 }
+
+.box{
+
+  position: absolute;
+  top: 41rem;
+
+}
+
+.hero{
+
+  background-color: #75b9be;
+
+}
+
 
 header {
 
@@ -60,6 +75,7 @@ header {
 .inner-box {
 
   display: flex;
+  background-color: #fff;
   justify-content: center;
   align-items: center;
   flex-direction: column;

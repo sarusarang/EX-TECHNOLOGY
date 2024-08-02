@@ -25,7 +25,7 @@ function AboutUs() {
         <>
 
 
-            <section className='p-5 container' style={{ borderTop: '1px solid #e8e5e5' }}>
+            <section className='p-5 container'>
 
 
                 <div className='row ps-4 pt-3'>

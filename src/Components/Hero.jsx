@@ -22,13 +22,13 @@ function Hero() {
         <>
 
 
-            <section className='hero'>
+            <section className='hero p-'>
 
                 <div className='container p-5'>
 
-                    <div className='row  ps-0 pt-3'>
+                    <div className='row  ps-0 pt-0'>
 
-                        <div className='col-md-6 pt-5 mt-5' data-aos="fade-up" data-aos-duration="1000">
+                        <div className='col-md-6 pt-5' style={{marginTop:'6rem'}} data-aos="fade-up" data-aos-duration="1000">
 
 
                             <h1>Empower your business <br /> with perfect IT solutions</h1>
@@ -46,9 +46,9 @@ function Hero() {
                         </div>
 
 
-                        <div className='col-md-6 ps-5'>
+                        <div className='col-md-6 ps-5' data-aos="zoom-in" data-aos-duration="1000">
 
-                            <img src="https://img.freepik.com/free-vector/future-work-concept-illustration_614304-14.jpg" className='img-fluid' alt="img" />
+                            <img src="/WALL.png" className='img-fluid' alt="img" />
 
                         </div>
 
