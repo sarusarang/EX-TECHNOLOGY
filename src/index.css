@@ -9,7 +9,8 @@
 
 
 body::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
+  display: none;
+  /* Safari and Chrome */
 }
 
 
@@ -81,13 +82,13 @@ header {
 
 }
 
-.about-head h3{
+.about-head h3 {
 
   font-weight: 700;
 
 }
 
-.about-head p{
+.about-head p {
 
   text-align: justify;
   font-weight: 400;
@@ -95,7 +96,7 @@ header {
 
 }
 
-.btn-read{
+.btn-read {
 
   background-color: #000 !important;
   border: 1px solid #fff !important;
@@ -107,7 +108,7 @@ header {
 
 }
 
-.btn-read:hover{
+.btn-read:hover {
 
   background-color: transparent !important;
   border: 1px solid #000 !important;
@@ -116,14 +117,14 @@ header {
 
 }
 
-.mission h3{
+.mission h3 {
 
   font-weight: 700;
-  
+
 
 }
 
-.mission p{
+.mission p {
 
   font-weight: 400;
   font-family: monospace;
@@ -131,21 +132,26 @@ header {
 
 }
 
-.service h3{
+.service h3 {
 
   font-weight: 700;
-  
+
 
 }
 
-.hover:hover{
+.hover:hover {
 
   cursor: pointer;
 }
 
-.contact h3{
+.contact h3 {
 
   font-weight: 700;
+
+}
+
+.head-logo {
+ width: 10%;
 
 
 }

@@ -27,10 +27,20 @@ function Landing() {
 
             <Container>
 
-              <Navbar.Brand href="/" className="Headline">EXTECHNOLOGY</Navbar.Brand>
+              <Navbar.Brand href="/" className="Headline col-md-6">
+
+                <div className='head-logo'>
+
+                  <img src="/WhatsApp Image 2024-08-02 at 11.36.22_d2328a7d.jpg" className='img-fluid' alt="logo" />
+
+                </div>
+
+
+
+              </Navbar.Brand>
               <Navbar.Toggle />
 
-              <Navbar.Collapse className="justify-content-end">
+              <Navbar.Collapse className="justify-content-end col-md-6">
 
                 <Nav>
 
@@ -83,7 +93,7 @@ function Landing() {
 
         <section id='contact' className='w-100 p-3 mt-5'>
 
-          <ContactUs/>
+          <ContactUs />
 
         </section>
 
