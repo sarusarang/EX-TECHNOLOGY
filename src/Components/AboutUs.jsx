@@ -19,9 +19,6 @@ function AboutUs() {
 
     return (
 
-
-
-
         <>
 
 
@@ -53,10 +50,6 @@ function AboutUs() {
                     </div>
 
                 </div>
-
-
-
-
 
             </section>
 

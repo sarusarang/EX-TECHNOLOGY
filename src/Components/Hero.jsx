@@ -48,7 +48,7 @@ function Hero() {
 
                         <div className='col-md-6 ps-5' data-aos="zoom-in" data-aos-duration="1000">
 
-                            <img src="/WALL.png" className='img-fluid' alt="img" />
+                            <img src="/WALL.png" className='' alt="img" style={{width:'110%'}} />
 
                         </div>
 
