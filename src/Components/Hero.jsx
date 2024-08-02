@@ -35,7 +35,7 @@ function Hero() {
 
 
 
-                            <p className='mt-3' style={{ fontFamily: 'cursive' }} >With 15 years of expertise in branding and advertisement, exmedia has established a strong market presence.
+                            <p className='mt-3' >With 15 years of expertise in branding and advertisement, exmedia has established a strong market presence.
                                 To expand service the extechnology offering is dedicated to delivering advanced IT solutions, including web
                                 development, e-commerce platforms, Web &
                                 WhatsApp Chatbots, and Mobile applications, ensuring comprehensive support of our client's digital needs.</p>

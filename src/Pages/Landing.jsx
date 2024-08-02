@@ -44,11 +44,11 @@ function Landing() {
 
                 <Nav>
 
-                  <Nav.Link href="#home">Home</Nav.Link>
-                  <Nav.Link href="#about">About Us</Nav.Link>
-                  <Nav.Link href="#vision">Vision & Mission</Nav.Link>
-                  <Nav.Link href="#service">Service</Nav.Link>
-                  <Nav.Link href="#contact">Contact Us</Nav.Link>
+                  <Nav.Link href="#home" className='me-3'>Home</Nav.Link>
+                  <Nav.Link href="#about" className='me-3'>About Us</Nav.Link>
+                  <Nav.Link href="#vision" className='me-3'>Vision & Mission</Nav.Link>
+                  <Nav.Link href="#service" className='me-3'>Service</Nav.Link>
+                  <Nav.Link href="#contact" className='me-3'>Contact Us</Nav.Link>
 
                 </Nav>
 

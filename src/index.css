@@ -32,8 +32,8 @@ html {
 
 .btn-contact {
 
-  background-color: #ff8a1d !important;
-  border: 1px solid #ff8a1d !important;
+  background: linear-gradient(to bottom, #CC01FF , #00FFDD) !important;
+  outline: none !important;
   color: #fff !important;
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   transition: all ease-in-out 0.3s !important;
@@ -43,9 +43,10 @@ html {
 
 .btn-contact:hover {
 
-  background-color: transparent !important;
-  color: #ff8a1d !important;
-  border: 1px solid #ff8a1d !important;
+  background: linear-gradient(to bottom, #ffffff, #ffffff) !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  
 
 
 }
@@ -92,7 +93,6 @@ header {
 
   text-align: justify;
   font-weight: 400;
-  font-family: monospace;
 
 }
 
@@ -127,7 +127,6 @@ header {
 .mission p {
 
   font-weight: 400;
-  font-family: monospace;
   text-align: justify;
 
 }
@@ -153,7 +152,13 @@ header {
 }
 
 .head-logo {
- width: 25%;
+ width: 30%;
 
+
+}
+
+.foot-logo{
+
+  width: 15%;
 
 }

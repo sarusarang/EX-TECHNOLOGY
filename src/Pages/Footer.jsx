@@ -47,9 +47,11 @@ function Footer() {
                     <section className="mb-5">
 
 
-                        <p>
+                        <p className='mb-4'>
                             Extechnology delivers tailored digital solutions that enhance user experiences and drive Your business growth.
                         </p>
+
+
 
 
                     </section>
@@ -93,6 +95,13 @@ function Footer() {
                         </div>
 
                     </section>
+
+                </div>
+
+
+                <div className='foot-logo m-auto'>
+
+                    <img src="/EX-TECHNOLOGY-LOGO.-01-removebg-preview.png" className='img-fluid' alt="" />
 
                 </div>
 

@@ -46,9 +46,9 @@ function AboutUs() {
                     </div>
 
 
-                    <div className='col-md-6 pt-5 mt-4' data-aos="zoom-in" data-aos-duration="400">
+                    <div className='col-md-6' data-aos="zoom-in" data-aos-duration="400">
 
-                        <img src="/EX TECHNOLOGY LOGO.-02.jpg" className='img-fluid' alt="img" />
+                        <img src="https://st4.depositphotos.com/26272580/31072/v/450/depositphotos_310724682-stock-illustration-contact-us-woman-with-headphones.jpg" className='img-fluid' alt="img" />
 
                     </div>
 
