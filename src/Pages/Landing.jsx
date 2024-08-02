@@ -4,7 +4,9 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Hero from '../Components/Hero'
 import AboutUs from '../Components/AboutUs'
+import Misson from '../Components/Misson'
 import ContactUs from '../Components/ContactUs'
+import Service from '../Components/Service'
 
 
 function Landing() {
@@ -33,9 +35,9 @@ function Landing() {
                 <Nav>
 
                   <Nav.Link href="#home">Home</Nav.Link>
-                  <Nav.Link href="#service">Service</Nav.Link>
                   <Nav.Link href="#about">About Us</Nav.Link>
                   <Nav.Link href="#vision">Vision & Mission</Nav.Link>
+                  <Nav.Link href="#service">Service</Nav.Link>
                   <Nav.Link href="#contact">Contact Us</Nav.Link>
 
                 </Nav>
@@ -62,10 +64,28 @@ function Landing() {
 
         <section id='about' className='w-100 p-5 mt-5'>
 
-         <AboutUs/>
+          <AboutUs />
 
         </section>
 
+        <section id='vision' className='w-100 p-5 mt-5' style={{ backgroundColor: '#e4f3ff' }}>
+
+          <Misson />
+
+        </section>
+
+
+        <section id='service' className='w-100 p-3 mt-5'>
+
+          <Service />
+
+        </section>
+
+        <section id='contact' className='w-100 p-3 mt-5'>
+
+          <ContactUs/>
+
+        </section>
 
 
 
