@@ -27,7 +27,7 @@ function Landing() {
 
             <Container>
 
-              <Navbar.Brand href="/" className="Headline col-md-6">
+              <Navbar.Brand href="/" className="Headline col-md-5">
 
                 <div className='head-logo'>
 
@@ -40,15 +40,15 @@ function Landing() {
               </Navbar.Brand>
               <Navbar.Toggle />
 
-              <Navbar.Collapse className="justify-content-end col-md-6">
+              <Navbar.Collapse className="justify-content-end col-md-7">
 
                 <Nav>
 
-                  <Nav.Link href="#home" className='me-3'>Home</Nav.Link>
-                  <Nav.Link href="#about" className='me-3'>About Us</Nav.Link>
-                  <Nav.Link href="#vision" className='me-3'>Vision & Mission</Nav.Link>
-                  <Nav.Link href="#service" className='me-3'>Service</Nav.Link>
-                  <Nav.Link href="#contact" className='me-3'>Contact Us</Nav.Link>
+                  <Nav.Link href="#home" className='me-4'>Home</Nav.Link>
+                  <Nav.Link href="#about" className='me-4'>About Us</Nav.Link>
+                  <Nav.Link href="#vision" className='me-4'>Vision & Mission</Nav.Link>
+                  <Nav.Link href="#service" className='me-4'>Service</Nav.Link>
+                  <Nav.Link href="#contact" className='me-4'>Contact Us</Nav.Link>
 
                 </Nav>
 
