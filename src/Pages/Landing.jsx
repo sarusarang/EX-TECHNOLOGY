@@ -31,7 +31,7 @@ function Landing() {
 
                 <div className='head-logo'>
 
-                  <img src="/WhatsApp Image 2024-08-02 at 11.36.22_d2328a7d.jpg" className='img-fluid' alt="logo" />
+                  <img src="/EX TECHNOLOGY LOGO.-01.jpg" className='img-fluid' alt="logo" />
 
                 </div>
 

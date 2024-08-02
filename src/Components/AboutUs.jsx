@@ -46,9 +46,9 @@ function AboutUs() {
                     </div>
 
 
-                    <div className='col-md-6' data-aos="zoom-in" data-aos-duration="400">
+                    <div className='col-md-6 pt-5 mt-4' data-aos="zoom-in" data-aos-duration="400">
 
-                        <img src="https://img.freepik.com/free-vector/customer-support-illustration_23-2148890148.jpg" className='img-fluid' alt="img" />
+                        <img src="/EX TECHNOLOGY LOGO.-02.jpg" className='img-fluid' alt="img" />
 
                     </div>
 
