@@ -41,11 +41,11 @@ function Landing() {
         </section>
 
 
-        <section id='service' className='w-100 p-3 mt-5'>
+        {/* <section id='service' className='w-100 p-3 mt-5'>
 
           <Service />
 
-        </section>
+        </section> */}
 
         <section id='contact' className='w-100 p-3 mt-5'>
 

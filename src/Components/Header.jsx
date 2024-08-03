@@ -41,7 +41,7 @@ function Header() {
                                 <Nav.Link href="/" className='me-4'>Home</Nav.Link>
                                 <Nav.Link href="#about" className='me-4'>About Us</Nav.Link>
                                 <Nav.Link href="#vision" className='me-4'>Vision & Mission</Nav.Link>
-                                <Nav.Link href="#service" className='me-4'>Service</Nav.Link>
+                                {/* <Nav.Link href="#service" className='me-4'>Service</Nav.Link> */}
                                 <Nav.Link href="#contact" className='me-4'>Contact Us</Nav.Link>
 
                             </Nav>

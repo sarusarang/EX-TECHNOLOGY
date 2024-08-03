@@ -9,34 +9,42 @@ function Footer() {
 
 
 
-            <footer className="text-white text-center p-5" style={{ backgroundColor: '#0a0f43' }}>
+            <footer className="text-white text-center p-3" style={{ backgroundColor: '#0a0f43' }}>
 
                 <div className="container p-5">
 
                     <section className="mb-4">
 
-                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" role="button"
+                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" target='_blank' role="button"
                         ><i className="fab fa-facebook-f fa-xl text-white"></i
                         ></a>
 
 
-                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" role="button"
+                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" target='_blank'role="button"
                         ><i className="fa-brands fa-x-twitter fa-xl text-white"></i></a>
 
 
-                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" role="button"
-                        ><i className="fab fa-google fa-xl text-white"></i
-                        ></a>
-
-
-                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" role="button"
+                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" target='_blank' role="button"
                         ><i className="fab fa-instagram fa-xl text-white"></i
                         ></a>
 
 
-                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" role="button"
+                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" target='_blank' role="button"
                         ><i className="fab fa-linkedin-in fa-xl text-white"></i
                         ></a>
+
+
+
+                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" target='_blank' role="button"
+                        ><i class="fa-brands fa-pinterest fa-xl text-white"></i></a>
+
+
+
+                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" target='_blank' role="button"
+                        ><i class="fa-brands fa-youtube fa-xl text-white"></i></a>
+
+
+
 
 
                     </section>
@@ -64,7 +72,7 @@ function Footer() {
 
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
 
-                                <i className="fa-solid fa-location-dot mb-2" style={{ fontSize: '2rem', color: "#ff8a1d" }}></i>
+                                <i className="fa-solid fa-location-dot mb-2" style={{ fontSize: '2rem', color: "#fff" }}></i>
 
                                 <p>KINFRA Advanced Technology Park
                                     Ramanattukara Kozhikode
@@ -76,7 +84,7 @@ function Footer() {
 
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
 
-                                <i className="fa-solid fa-phone-flip mb-2" style={{ fontSize: '2rem', color: '#ff8a1d' }}></i>
+                                <i className="fa-solid fa-phone-flip mb-2" style={{ fontSize: '2rem', color: '#fff' }}></i>
 
                                 <a href="https://wa.me/+919656123466" className='nav-link'>+91 9656123466</a>
 
@@ -86,7 +94,7 @@ function Footer() {
 
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
 
-                                <i className="fa-solid fa-envelope mb-1" style={{ fontSize: '2rem', color: '#ff8a1d' }}></i>
+                                <i className="fa-solid fa-envelope mb-1" style={{ fontSize: '2rem', color: '#fff' }}></i>
 
                                 <a href="mailto:info@extechnology.in" className='nav-link'>info@extechnology.in</a>
 
