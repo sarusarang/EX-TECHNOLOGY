@@ -7,10 +7,10 @@
 }
 
 
-
+/* Scroll bar  */
 body::-webkit-scrollbar {
   display: none;
-  /* Safari and Chrome */
+
 }
 
 
@@ -30,12 +30,14 @@ html {
 
 }
 
+
+/* Home */
 .btn-contact {
 
-  background: #000 !important;
+ 
   border: 1px solid #000 !important;
   outline: none !important;
-  color: #fff !important;
+  color: #000 !important;
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   transition: all ease-in-out 0.3s !important;
   font-weight: 500 !important;
@@ -44,8 +46,12 @@ html {
 
 .btn-contact:hover {
 
- 
-  border: 1px solid #000 !important;
+  border-image: linear-gradient(to right, #CC01FF 0%, #00FFDD 100%) 1 !important;
+  border-radius: 1rem !important;
+  background: -webkit-linear-gradient(#00FFDD, #CC01FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
   
 }
 
@@ -78,7 +84,7 @@ header {
   align-items: center;
   flex-direction: column;
   margin-left: 3rem;
-  padding: 4rem 2rem 4rem 2rem;
+  padding: 4rem 0rem 4rem 0rem;
   color: #343a40;
   transition: all ease-in-out 0.3s !important;
 
@@ -97,6 +103,9 @@ header {
 
 }
 
+
+
+/* About */
 .about-head h3 {
 
   font-weight: 700;
@@ -131,6 +140,8 @@ header {
 
 }
 
+
+/* Our Visison */
 .mission h3 {
 
   font-weight: 700;
@@ -146,6 +157,8 @@ header {
 }
 
 
+
+/* Services */
 
 .service h3 {
 
@@ -166,7 +179,7 @@ header {
 }
 
 .head-logo {
- width: 30%;
+ width: 35%;
 
 
 }

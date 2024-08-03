@@ -31,13 +31,15 @@ function Landing() {
 
                 <div className='head-logo'>
 
-                  <img src="/EX TECHNOLOGY LOGO.-01.jpg" className='img-fluid' alt="logo" />
+                  <img src="/NAV LOGO.png" className='img-fluid' alt="logo" />
 
                 </div>
 
 
 
               </Navbar.Brand>
+
+
               <Navbar.Toggle />
 
               <Navbar.Collapse className="justify-content-end col-md-7">

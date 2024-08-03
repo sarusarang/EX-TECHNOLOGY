@@ -64,7 +64,7 @@ function Hero() {
 
                         <i className="fa-solid fa-laptop-code mb-3 fa-bounce"></i>
 
-                        <h5>WEB/E-COMMERCE PLATFORMS</h5>
+                        <h5>WEB / E-COMMERCE PLATFORMS</h5>
 
                     </div>
 
