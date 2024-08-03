@@ -26,7 +26,7 @@ function Hero() {
 
                 <div className='container'>
 
-                    <div className='row  ps-0 pt-0'>
+                    <div className='row  ps-0 pt-4'>
 
                         <div className='col-md-6 pt-5' style={{marginTop:'6rem'}} data-aos="fade-up" data-aos-duration="1000">
 
