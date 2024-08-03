@@ -24,7 +24,7 @@ function Hero() {
 
             <section className='hero p-'>
 
-                <div className='container p-5'>
+                <div className='container'>
 
                     <div className='row  ps-0 pt-0'>
 
