@@ -13,17 +13,21 @@ function Landing() {
     <>
 
 
-      <section>
+      <section className='w-100'>
 
-       
 
 
         {/* hero */}
-        <section id='home' className='pt-5'>
-
+        <section id='/' className='pt-5 w-100'>
 
           <Hero />
 
+        </section>
+
+
+        <section id='service' className='w-100 p-5 pt-0  our-service'>
+
+          <Service />
 
         </section>
 
@@ -34,6 +38,8 @@ function Landing() {
 
         </section>
 
+
+
         <section id='vision' className='w-100 p-5 mt-5' style={{ backgroundColor: '#e4f3ff' }}>
 
           <Misson />
@@ -41,19 +47,17 @@ function Landing() {
         </section>
 
 
-        {/* <section id='service' className='w-100 p-3 mt-5'>
 
-          <Service />
 
-        </section> */}
+
+
+
 
         <section id='contact' className='w-100 p-3 mt-5'>
 
           <ContactUs />
 
         </section>
-
-
 
 
       </section>

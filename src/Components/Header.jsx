@@ -1,11 +1,20 @@
 import React from 'react'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import { Link } from 'react-router-dom'
+import './Header.css'
 
 
 function Header() {
+
+
+    const [expanded, setExpanded] = useState(false);
+
+    const handleNavClick = () => {
+        setExpanded(false); // Collapse the navbar
+    };
 
 
     return (
@@ -13,44 +22,57 @@ function Header() {
 
         <>
 
-            <header className='p-2 shadow position-fixed w-100'>
-
-                <Navbar>
-
-                    <Container>
-
-                        <Navbar.Brand href="/" className="Headline col-md-5">
-
-                            <div className='head-logo'>
-
-                                <img src="/NAV LOGO.png" className='img-fluid' alt="logo" />
-
-                            </div>
+            <header className='p-1 shadow position-fixed w-100'>
 
 
+                <Navbar expand="lg" className="header" collapseOnSelect expanded={expanded}>
 
-                        </Navbar.Brand>
+                    <Container className='contain'>
 
 
-                        <Navbar.Toggle />
+                        <div className='nav-logo'>
 
-                        <Navbar.Collapse className="justify-content-end col-md-7">
+                            <a href="/">
 
-                            <Nav>
+                                <img src="/NAV LOGO.png" className='img-fluid' alt="" />
 
-                                <Nav.Link href="/" className='me-4'>Home</Nav.Link>
-                                <Nav.Link href="#about" className='me-4'>About Us</Nav.Link>
-                                <Nav.Link href="#vision" className='me-4'>Vision & Mission</Nav.Link>
-                                {/* <Nav.Link href="#service" className='me-4'>Service</Nav.Link> */}
-                                <Nav.Link href="#contact" className='me-4'>Contact Us</Nav.Link>
+                            </a>
+
+                        </div>
+
+
+
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
+
+
+                        <Navbar.Collapse id="basic-navbar-nav" className='nav-col justify-content-end'>
+
+
+                            <Nav className=" navigation">
+
+
+                                <Nav.Link href="/" onClick={handleNavClick} >Home</Nav.Link>
+
+                                <Nav.Link href="#about" onClick={handleNavClick} >About Us</Nav.Link>
+
+                                <Nav.Link href="#vision" onClick={handleNavClick} >Vison & Mission</Nav.Link>
+
+                                <Nav.Link href="#contact" onClick={handleNavClick} >Contact Us</Nav.Link>
+
 
                             </Nav>
 
+
                         </Navbar.Collapse>
+
 
                     </Container>
 
+
                 </Navbar>
+
+
+
 
             </header>
 

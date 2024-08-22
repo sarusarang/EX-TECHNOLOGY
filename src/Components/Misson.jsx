@@ -32,7 +32,7 @@ function Misson() {
 
                     <div className='col-md-6' data-aos="zoom-in" data-aos-duration="400">
 
-                        <img src="https://img.freepik.com/premium-vector/gradient-our-mission-concept-illustrated_23-2149081667.jpg" className='aimg-fluid' alt="" />
+                        <img src="https://img.freepik.com/premium-vector/gradient-our-mission-concept-illustrated_23-2149081667.jpg" className='img-fluid' alt="" />
 
                     </div>
 

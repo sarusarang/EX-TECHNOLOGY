@@ -45,14 +45,13 @@ function Service() {
 
         <>
 
-            <section className='container-fluid p-4 mt-5 mb-5 service'>
-
-                <h3 className='text-center' data-aos="fade-up" data-aos-duration="400">OUR SERVICES</h3>
-
-                <div className='row pt-5 justify-content-center'>
+            <section className='container-fluid service'>
 
 
-                    <div className='col-md-3 inner-box shadow border hover' data-aos="fade-right" data-aos-duration="400" onClick={handleShow}>
+                <div className='row pt-4 justify-content-center'>
+
+
+                    <div className='col-md-3 inner-box shadow hover' data-aos="fade-up" data-aos-duration="600" onClick={handleShow}>
 
                         <i className="fa-solid fa-laptop-code mb-3 fa-bounce"></i>
 
@@ -62,7 +61,7 @@ function Service() {
 
 
 
-                    <div className='col-md-3 inner-box shadow border hover' data-aos="fade-up" data-aos-duration="400" onClick={handleShow1}>
+                    <div className='col-md-3 inner-box shadow hover' data-aos="fade-up" data-aos-duration="600" onClick={handleShow1}>
 
                         <i class="fa-solid fa-mobile-screen mb-3 fa-bounce"></i>
 
@@ -72,7 +71,7 @@ function Service() {
 
 
 
-                    <div className='col-md-3 inner-box shadow border hover' data-aos="fade-left" data-aos-duration="400" onClick={handleShow2}>
+                    <div className='col-md-3 inner-box shadow hover' data-aos="fade-up" data-aos-duration="600" onClick={handleShow2}>
 
                         <i class="fa-solid fa-robot mb-3 fa-bounce"></i>
 
@@ -109,7 +108,7 @@ function Service() {
 
                                 <div className='row'>
 
-                                    <div className='col-md-6 pt-5 modal-head' style={{ marginTop: '8rem' }}>
+                                    <div className='col-md-6 modal-head'>
 
                                         <h3>WEB / E-COMMERCE PLATFORMS</h3>
 
@@ -170,7 +169,7 @@ function Service() {
 
                                 <div className='row'>
 
-                                    <div className='col-md-6 pt-5 modal-head' style={{ marginTop: '8rem' }}>
+                                    <div className='col-md-6 modal-head'>
 
                                         <h3>MOBILE APPLICATIONS</h3>
 
@@ -232,7 +231,7 @@ function Service() {
 
                                 <div className='row'>
 
-                                    <div className='col-md-6 pt-5 modal-head' style={{ marginTop: '8rem' }}>
+                                    <div className='col-md-6 modal-head'>
 
                                         <h3>WHATSAPP / CHATBOTS WEB</h3>
 

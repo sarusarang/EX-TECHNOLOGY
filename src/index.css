@@ -34,7 +34,7 @@ html {
 /* Home */
 .btn-contact {
 
- 
+
   border: 1px solid #000 !important;
   outline: none !important;
   color: #000 !important;
@@ -51,24 +51,38 @@ html {
   background: -webkit-linear-gradient(#00FFDD, #CC01FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
-  
+
+
 }
 
 
-.box{
+.box {
 
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 41rem;
 
 }
 
-.hero{
+.hero {
 
   background-color: #75b9be;
 
 }
 
+.hero-logo {
+
+  width: 109%;
+
+}
+
+.hero-text {
+
+  padding-top: 3rem;
+
+}
 
 header {
 
@@ -104,18 +118,7 @@ header {
 }
 
 
-.modal-head h3{
 
-  font-weight: 700 !important;
-
-}
-
-.modal-head p{
-
-  font-weight: 400;
-  font-style: initial;
-
-}
 
 
 /* About */
@@ -173,6 +176,21 @@ header {
 
 /* Services */
 
+
+.modal-head{
+
+  margin-top: 8rem;
+  padding-top: 3rem;
+
+}
+
+.our-service {
+
+  display: none;
+
+}
+
+
 .service h3 {
 
   font-weight: 700;
@@ -192,13 +210,369 @@ header {
 }
 
 .head-logo {
- width: 35%;
+  width: 35%;
 
 
 }
 
-.foot-logo{
+.foot-logo {
 
   width: 10%;
+
+}
+
+
+/* Responsive */
+
+
+
+
+/* Responsive */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+
+  .box {
+
+    top: 35rem;
+
+  }
+
+  .inner-box h5 {
+
+    font-size: larger;
+
+  }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+
+
+  .hero-logo {
+
+    width: 105%;
+
+  }
+
+
+  .hero-text h1 {
+
+
+    font-size: 1.8rem;
+
+
+  }
+
+  .hero-text p {
+
+    font-size: 0.9rem;
+
+  }
+
+  .hero-text {
+
+    padding-top: 1rem;
+
+  }
+
+
+  .box {
+
+    top: 30rem;
+
+  }
+
+  .inner-box h5 {
+
+    font-size: 0.9rem;
+
+  }
+
+  .inner-box {
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  }
+
+  .inner-box i {
+
+    font-size: 3.5rem;
+
+  }
+
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+  .hero-logo {
+
+    width: 105%;
+
+  }
+
+
+  .hero-text h1 {
+
+
+    font-size: 1.8rem;
+
+
+  }
+
+  .hero-text p {
+
+    font-size: 0.9rem;
+
+  }
+
+  .hero-text {
+
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+  }
+
+
+  
+  .box {
+
+    top: 32rem;
+
+  }
+
+
+
+  .inner-box h5 {
+
+    font-size: 0.9rem;
+
+  }
+
+  .inner-box {
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  }
+
+  .inner-box i {
+
+    font-size: 3.5rem;
+
+  }
+
+
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+
+  .hero-logo {
+
+    width: 100%;
+
+  }
+
+
+  .hero-text h1 {
+
+
+    font-size: 2.5rem;
+
+
+  }
+
+  .hero-text p {
+
+    font-size: 1rem;
+
+  }
+
+  .hero-text {
+
+    padding-top: 1rem;
+
+  }
+
+  .box {
+
+    display: none !important;
+
+  }
+
+  .our-service {
+
+    display: block;
+    margin-top: -5.5rem;
+
+  }
+
+  .inner-box {
+
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+
+
+  }
+
+  .modal-head{
+
+    margin-top: 0rem;
+    padding-top: 1rem;
+  
+  }
+
+}
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+
+
+  .hero-logo {
+
+    width: 100%;
+
+  }
+
+
+  .hero-text h1 {
+
+
+    font-size: 2rem;
+
+
+  }
+
+  .hero-text p {
+
+    font-size: 0.9rem;
+
+  }
+
+  .hero-text {
+
+    padding-top: 1rem;
+
+  }
+
+
+
+  .box {
+
+    display: none !important;
+
+  }
+
+  .our-service {
+
+    display: block;
+    margin-top: -5rem;
+
+  }
+
+  .inner-box {
+
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+
+
+  }
+
+
+  .modal-head{
+
+    margin-top: 0rem;
+    padding-top: 1rem;
+  
+  }
+
+}
+
+
+
+@media only screen and (max-width: 481px) {
+
+
+  .hero-logo {
+
+    width: 100%;
+
+  }
+
+
+  .hero-text h1 {
+
+
+    font-size: 2rem;
+
+
+  }
+
+  .hero-text p {
+
+    font-size: 0.9rem;
+
+  }
+
+  .hero-text {
+
+    padding-top: 0rem;
+
+  }
+
+
+
+
+  .box {
+
+    display: none !important;
+
+  }
+
+  .our-service {
+
+    display: block;
+    margin-top: -4rem;
+
+  }
+
+  .inner-box {
+
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+
+
+  }
+
+  .inner-box h5 {
+
+    font-size: 0.9rem;
+
+  }
+
+
+  .modal-head{
+
+    margin-top: 0rem;
+    padding-top: 1rem;
+  
+  }
 
 }
