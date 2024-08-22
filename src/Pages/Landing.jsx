@@ -32,7 +32,7 @@ function Landing() {
         </section>
 
 
-        <section id='about' className='w-100 p-5 mt-5'>
+        <section id='about' className='w-100 pt-5 mt-5'>
 
           <AboutUs />
 

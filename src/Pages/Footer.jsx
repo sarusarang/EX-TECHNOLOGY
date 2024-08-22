@@ -15,21 +15,21 @@ function Footer() {
 
                     <section className="mb-4">
 
-                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" target='_blank' role="button"
+                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="https://www.facebook.com/exmedia/" target='_blank' role="button"
                         ><i className="fab fa-facebook-f fa-xl text-white"></i
                         ></a>
 
 
-                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" target='_blank'role="button"
+                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="https://x.com/exmedia_" target='_blank'role="button"
                         ><i className="fa-brands fa-x-twitter fa-xl text-white"></i></a>
 
 
-                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" target='_blank' role="button"
+                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="https://www.instagram.com/exmedia_1/" target='_blank' role="button"
                         ><i className="fab fa-instagram fa-xl text-white"></i
                         ></a>
 
 
-                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" target='_blank' role="button"
+                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="https://www.linkedin.com/company/exmedia1/posts/?feedView=all" target='_blank' role="button"
                         ><i className="fab fa-linkedin-in fa-xl text-white"></i
                         ></a>
 
@@ -40,7 +40,7 @@ function Footer() {
 
 
 
-                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="#!" target='_blank' role="button"
+                        <a data-mdb-ripple-init className="btn btn-outline btn-floating m-1" href="https://www.youtube.com/@exmedia-" target='_blank' role="button"
                         ><i class="fa-brands fa-youtube fa-xl text-white"></i></a>
 
 
@@ -86,7 +86,7 @@ function Footer() {
 
                                 <i className="fa-solid fa-phone-flip mb-2" style={{ fontSize: '2rem', color: '#fff' }}></i>
 
-                                <a href="https://wa.me/+919656123466" className='nav-link'>+91 9656123466</a>
+                                <a href="https://wa.me/+919656123466" target='_blank' className='nav-link'>+91 9656123466</a>
 
                             </div>
 
@@ -96,7 +96,7 @@ function Footer() {
 
                                 <i className="fa-solid fa-envelope mb-1" style={{ fontSize: '2rem', color: '#fff' }}></i>
 
-                                <a href="mailto:info@extechnology.in" className='nav-link'>info@extechnology.in</a>
+                                <a href="mailto:info@extechnology.in" target='_blank' className='nav-link'>info@extechnology.in</a>
 
                             </div>
 
@@ -114,7 +114,7 @@ function Footer() {
                 </div>
 
 
-                <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+                <div className="text-center p-3" >
                     © 2024 All Rights Reserved By extechnology.in
                 </div>
 

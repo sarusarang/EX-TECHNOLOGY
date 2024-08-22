@@ -24,20 +24,20 @@ function Misson() {
         <>
 
 
-            <section className='container p-5'>
+            <section className='container pt-5 mb-5 mt-5'>
 
 
-                <div className='row ps-4 pt-3'>
+                <div className='row pt-5'>
 
 
-                    <div className='col-md-6' data-aos="zoom-in" data-aos-duration="400">
+                    <div className='col-md-6 vision-img' data-aos="zoom-in" data-aos-duration="400">
 
                         <img src="https://img.freepik.com/premium-vector/gradient-our-mission-concept-illustrated_23-2149081667.jpg" className='img-fluid' alt="" />
 
                     </div>
 
 
-                    <div className='col-md-6 ps-5 pt-3 mission'>
+                    <div className='col-md-6 pt-3 mission'>
 
 
                         <h3  data-aos="fade-right" data-aos-duration="400">OUR MISSION & VISION</h3>

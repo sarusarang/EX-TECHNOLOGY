@@ -157,6 +157,22 @@ header {
 }
 
 
+.about-head {
+
+  margin-top: 6rem !important;
+  padding-top: 3rem;
+
+}
+
+
+.about-us {
+
+  padding-top: 3rem;
+  margin-top: 3rem;
+
+}
+
+
 /* Our Visison */
 .mission h3 {
 
@@ -172,12 +188,18 @@ header {
 
 }
 
+.mission{
+
+  padding-left: 3rem;
+
+}
+
 
 
 /* Services */
 
 
-.modal-head{
+.modal-head {
 
   margin-top: 8rem;
   padding-top: 3rem;
@@ -222,7 +244,7 @@ header {
 }
 
 
-/* Responsive */
+
 
 
 
@@ -231,6 +253,7 @@ header {
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
 
 
+  /* Hero */
   .box {
 
     top: 35rem;
@@ -252,6 +275,7 @@ header {
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
 
 
+  /* Hero */
   .hero-logo {
 
     width: 105%;
@@ -306,6 +330,32 @@ header {
   }
 
 
+  /* About us */
+
+  .about-img img {
+
+    margin-top: 5rem;
+
+  }
+
+
+  .about-head {
+
+    margin-top: 5rem !important;
+    padding-top: 3rem;
+
+  }
+
+
+  /* Vision */
+  .vision-img img{
+
+
+    margin-top: 3rem;
+
+
+  }
+
 
 }
 
@@ -313,6 +363,7 @@ header {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
 
+  /* Hero */
   .hero-logo {
 
     width: 105%;
@@ -342,7 +393,7 @@ header {
   }
 
 
-  
+
   .box {
 
     top: 32rem;
@@ -371,6 +422,66 @@ header {
   }
 
 
+  /* About us */
+
+  .about-img img {
+
+    margin-top: 10rem;
+
+  }
+
+
+  .about-head {
+
+    margin-top: 5rem !important;
+    padding-top: 3rem;
+
+  }
+
+  .about-head h3 {
+
+    font-size: 1.5rem;
+
+  }
+
+  .about-head p {
+
+    font-size: 0.9rem;
+
+  }
+
+
+  
+
+  /* Vision */
+  .vision-img img{
+
+
+    margin-top: 7rem;
+
+
+  }
+
+  .mission h3{
+
+    font-size: 1.5rem;
+
+  }
+
+  .mission p{
+
+    font-size: 0.9rem;
+
+  }
+
+  /* Footer */
+
+  .foot-logo{
+
+    width: 20%;
+
+  }
+
 
 
 }
@@ -379,6 +490,8 @@ header {
 @media only screen and (min-width: 600px) and (max-width: 768px) {
 
 
+
+  /* Hero */
   .hero-logo {
 
     width: 100%;
@@ -428,12 +541,83 @@ header {
 
   }
 
-  .modal-head{
+  .modal-head {
 
     margin-top: 0rem;
     padding-top: 1rem;
-  
+
   }
+
+
+
+  /* About us */
+
+  .about-img img {
+
+    margin-top: 0rem;
+
+  }
+
+
+  .about-head {
+
+    margin-top: 0rem !important;
+    padding-top: 0rem !important;
+
+  }
+
+  .about-head h3 {
+
+    font-size: 1.5rem;
+
+  }
+
+  .about-head p {
+
+    font-size: 0.9rem;
+
+  }
+
+
+  .about-us {
+
+    padding-top: 0rem;
+    margin-top: 0rem;
+
+  }
+
+
+    /* Vision */
+    .vision-img img{
+
+
+      margin-top: 0rem;
+  
+  
+    }
+  
+    .mission h3{
+  
+      font-size: 1.5rem;
+  
+    }
+  
+    .mission p{
+  
+      font-size: 0.9rem;
+  
+    }
+
+
+    /* Footer */
+
+  .foot-logo{
+
+    width: 25%;
+
+  }
+
+
 
 }
 
@@ -443,6 +627,8 @@ header {
 @media only screen and (min-width: 481px) and (max-width: 600px) {
 
 
+
+  /* Hero */
   .hero-logo {
 
     width: 100%;
@@ -495,12 +681,85 @@ header {
   }
 
 
-  .modal-head{
+  .modal-head {
 
     margin-top: 0rem;
     padding-top: 1rem;
-  
+
   }
+
+
+
+
+  /* About us */
+
+  .about-img img {
+
+    margin-top: 0rem;
+
+  }
+
+
+  .about-head {
+
+    margin-top: 0rem !important;
+    padding-top: 0rem !important;
+
+  }
+
+  .about-head h3 {
+
+    font-size: 1.5rem;
+
+  }
+
+  .about-head p {
+
+    font-size: 0.9rem;
+
+  }
+
+
+  .about-us {
+
+    padding-top: 0rem;
+    margin-top: 0rem;
+
+  }
+
+
+    /* Vision */
+    .vision-img img{
+
+
+      margin-top: 0rem;
+  
+  
+    }
+  
+    .mission h3{
+  
+      font-size: 1.5rem;
+  
+    }
+  
+    .mission p{
+  
+      font-size: 0.9rem;
+  
+    }
+
+    /* Footer */
+
+  .foot-logo{
+
+    width: 30%;
+
+  }
+
+
+
+
 
 }
 
@@ -509,6 +768,7 @@ header {
 @media only screen and (max-width: 481px) {
 
 
+  /* Hero */
   .hero-logo {
 
     width: 100%;
@@ -535,8 +795,6 @@ header {
     padding-top: 0rem;
 
   }
-
-
 
 
   .box {
@@ -568,11 +826,86 @@ header {
   }
 
 
-  .modal-head{
+  .modal-head {
 
     margin-top: 0rem;
     padding-top: 1rem;
-  
+
   }
+
+
+
+  /* About us */
+
+  .about-img img {
+
+    margin-top: 0rem;
+
+  }
+
+
+  .about-head {
+
+    margin-top: 0rem !important;
+    padding-top: 0rem !important;
+
+  }
+
+  .about-head h3 {
+
+    font-size: 1.5rem;
+
+  }
+
+  .about-head p {
+
+    font-size: 0.8rem;
+
+  }
+
+
+  .about-us {
+
+    padding-top: 0rem;
+    margin-top: 0rem;
+
+  }
+
+
+  /* Footer */
+
+  .foot-logo{
+
+    width: 40%;
+
+  }
+
+
+    /* Vision */
+    .vision-img img{
+
+
+      margin-top: 0rem;
+  
+  
+    }
+
+    .mission{
+
+      padding-left: 0rem;
+
+    }
+  
+    .mission h3{
+  
+      font-size: 1.5rem;
+  
+    }
+  
+    .mission p{
+  
+      font-size: 0.9rem;
+  
+    }
 
 }
